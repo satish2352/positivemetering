@@ -19,14 +19,14 @@ function Header() {
             <Navbar collapseOnSelect expand="lg" className="HeaderSection py-4">
                 <Container fluid className='px-md-5'>
                     {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle className='my-3' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             {
                                 HeaderSection.map((item, id) => {
                                     return (
                                         <>
-                                            <Link className='HeaderStyle mx-md-4' to={item.url}>{item.label}</Link>
+                                            <Link className='HeaderStyle mx-lg-3 mx-sm-3' to={item.url}>{item.label}</Link>
                                         </>
                                     )
                                 })
