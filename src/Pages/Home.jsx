@@ -1,8 +1,9 @@
 import React from 'react'
+import MainBanner from '../PagesComp/HomeComp/MainBanner'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div><MainBanner/></div>
   )
 }
 
