@@ -1,44 +1,111 @@
-.mainbanner{
+.mainbanner {
     background: url('../../img/homeimg/Rectangle\ 134.png');
-
+    width: auto;
 }
-.mainbannerleftsection{
+
+.mainbannerleftsection {
     position: relative;
     left: 164px;
     margin-left: -100px;
-    
+
 
 }
-.welcomesection{
+.ourprdcard{
+    /* margin: 20px; */
+    padding: 20px;
+}
+.welcomesection {
     background-image: url('../../img/homeimg/Group\ 83.png');
     height: 600px;
     width: 900px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;   
-  
+    background-position: center;
+
 }
-.welcomesection h1{
+
+.welcomesection h1 {
     font-size: larger;
-    color:  white;
+    color: white;
     font-size: 70px;
 }
-.welcomesection h2{
+
+.welcomesection h2 {
     font-weight: 400;
-    color:  white;
+    color: white;
     font-size: 30px;
 }
-.bgred{
+
+.bgred {
     font-weight: 400;
     padding: 50px;
-    color:  white;
+    color: white;
     font-size: 15px;
     background: linear-gradient(90deg, rgba(238, 88, 93, 0) 0%, rgba(238, 88, 93, 0.2) 18.61%, rgba(238, 88, 93, 0.814196) 61.08%, #EE585D 81.38%);
 
 }
-.shiftimng{
+
+.shiftimng {
     margin-left: 200px;
 }
-.shiftimngp{
+
+.shiftimngp {
     margin-left: 160px;
+}
+
+.welcomesectionleft {
+    padding: 30px !important;
+    background: rgba(245, 245, 245, 1);
+    box-shadow: 0px 4px 4px 0px hsba(0, 0%, 0%, 0.25);
+
+}
+
+.welcomesectionleft p {
+    font-size: 13px;
+}
+
+.welcomesectionleft h2 {
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width: 570px) {
+    .shiftimng {
+        margin-left: 0px !important;
+    }
+
+    .shiftimngp {
+        margin-left: 0px !important;
+    }
+
+    .welcomesection {
+        height: 600px;
+        width: auto;
+
+
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 970px) {
+    .shiftimng {
+        margin-left: 80px !important;
+    }
+
+    .shiftimngp {
+        margin-left: 50px !important;
+    }
+
+    .welcomesection {
+        height: 600px;
+        width: auto;
+
+
+    }
+}
+
+.slick-next {
+    right: 0px !important;
+}
+.oueprd{
+    letter-spacing: 10px;
+    
 }
