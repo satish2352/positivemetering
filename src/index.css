@@ -41,3 +41,19 @@ a {
     background: white !important;
   }
 }
+
+/* Career */
+
+.careerFormHeading {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+@media only screen and (min-width: 1300px) {
+  .formImg {
+    position: relative;
+    z-index: 2;
+    left: 75%;
+    width: 25%;
+    top: -125px;
+  }
+}

@@ -2,8 +2,48 @@ import React, { useState } from 'react'
 import { Button, Carousel, Col, Container, Row } from 'react-bootstrap'
 import { Rating } from 'react-simple-star-rating'
 import productImg from "../Assets/Images/image 5.png"
+import im2 from "../Assets/img/homeimg/image 20.png"
+import Slider from 'react-slick'
 const ProductComp = () => {
     const [data, setData] = useState([])
+
+    var settings = {
+        infinite: false,
+        speed: 500,
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        centerPadding: "20px",
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
     return (
         <>
             <section className='mt-5'>
@@ -67,9 +107,34 @@ const ProductComp = () => {
                         </Col>
                     </Row>
                 </Container>
-                {/* <Container>
-                    <Row></Row>
-                </Container> */}
+            </section>
+            <section>
+                <Container>
+
+                    <Slider {...settings}>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                        <div className=' ourprdcard'>
+                            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+                        </div>
+                    </Slider>
+                    <Row className=' text-center '>
+                        <h1 className='oueprd'>OUR PRODUCTS</h1>
+                    </Row>
+                </Container>
             </section>
         </>
     )
