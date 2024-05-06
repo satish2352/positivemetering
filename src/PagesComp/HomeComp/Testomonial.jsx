@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import im1 from "../../assets/img/homeimg/8538f65b57b894ab67325c5349657e23.png"
+import im1 from "../../Assets/img/homeimg/8538f65b57b894ab67325c5349657e23.png"
 import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
 

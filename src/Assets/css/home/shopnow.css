@@ -1,11 +1,12 @@
-.shopnow{
+.shopnow {
     background: url('../../img/homeimg/image\ 19.png');
-    height: 300px;
-    background-size:cover;
+    /* height: 300px; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
+
 .shopnow h1 {
     font-size: larger;
     color: white;
@@ -17,25 +18,37 @@
     color: white;
     font-size: 30px;
 }
-.imshopnow{
-    background-image: url('../../img/homeimg/POSITIVE 1.png') ;    position: relative;
+
+.imshopnow {
+    background-image: url('../../img/homeimg/POSITIVE 1.png');
+    position: relative;
     top: -50px;
-    height:300px;
+    height: 300px;
     width: 250px;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
- 
+
 }
-@media screen  and (max-width: 970px) {
-    .imshopnow{
-      
+
+@media screen and (max-width: 970px) {
+    .imshopnow {
+
         width: auto !important;
-       
-     
+
+
+    }
+
+    .imshopnow {
+        position: static;
+        top: 0px;
+
+
+
     }
 }
-.contact-btn{
+
+.contact-btn {
     color: white;
     border-radius: 30px;
     border: 1px red solid;
@@ -43,40 +56,46 @@
     width: 150px;
     height: 50px;
 }
-.imshopnow h1{
+
+.imshopnow h1 {
     font-size: larger;
     color: white;
     font-size: 30px;
 }
-.imshopnow h3{
+
+.imshopnow h3 {
     font-size: larger;
     color: white;
     font-size: 20px;
 }
-.imshopdata{
+
+.imshopdata {
     padding-top: 160px;
 }
 
 
 /* ----testomonial */
-.testomonialprofile{
+.testomonialprofile {
     border-radius: 50%;
     height: 100px;
     width: 130px;
     border: 7px solid rgb(242, 236, 236);
-   
+
 }
-.profileposition{
+
+.profileposition {
     position: relative;
     top: 50px;
     justify-content: center;
     display: flex;
 }
-.testomonialback{
+
+.testomonialback {
     background: rgba(239, 239, 239, 1);
     position: relative;
 }
-.testback{
+
+.testback {
     background: rgba(255, 255, 255, 1);
     border-radius: 30px;
     /* width: 350px; */
@@ -85,20 +104,24 @@
     margin: 20px;
 
 }
-.testback h1{
+
+.testback h1 {
     font-size: large;
     letter-spacing: 3px;
     font-weight: 600;
 
 }
-.testback p{
+
+.testback p {
     font-size: 10px;
 }
-.star{
+
+.star {
     color: gold;
     margin: 7px;
 }
-.star1{
+
+.star1 {
     color: rgb(158, 151, 151);
     margin: 7px;
 }
