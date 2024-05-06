@@ -4,7 +4,6 @@ import ConatactCard from '../PagesComp/Contactus/ConatactCard'
 const About = () => {
   return (<>
 
-    <ConatactCard/>
     <Getaquote /></>
 
   )

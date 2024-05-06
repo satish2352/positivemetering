@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import im from "../../Assets/img/homeimg/Rectangle 114.png"
 import im1 from "../../Assets/img/homeimg/Rectangle 116.png"
 import im2 from "../../Assets/img/homeimg/image 20.png"
-import { Container,Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 
 
@@ -50,38 +50,31 @@ function OurProducts() {
   };
   return (
     <Container fluid>
-     
-        <Slider {...settings}>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          <div className=' ourprdcard'>
-            <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
-          </div>
-          
-        
-        </Slider>
-    
+      <Slider {...settings}>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+        <div className=' ourprdcard'>
+          <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
+        </div>
+      </Slider>
       <Row className=' text-center '>
         <h1 className='oueprd'>OUR PRODUCTS</h1>
       </Row>
     </Container>
   );
 }
-
-
-
 
 export default OurProducts
