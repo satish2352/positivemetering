@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../assets/css/home/mainbanner.css'
+import '../../Assets/css/home/mainbanner.css'
 
 import Slider from "react-slick";
-import im from "../../assets/img/homeimg/Rectangle 114.png"
-import im1 from "../../assets/img/homeimg/Rectangle 116.png"
-import im2 from "../../assets/img/homeimg/image 20.png"
+import im from "../../Assets/img/homeimg/Rectangle 114.png"
+import im1 from "../../Assets/img/homeimg/Rectangle 116.png"
+import im2 from "../../Assets/img/homeimg/image 20.png"
 import { Container,Row } from 'react-bootstrap';
 
 

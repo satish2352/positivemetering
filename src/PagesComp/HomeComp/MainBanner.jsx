@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import Gropimgnomeleft from '../../assets/img/homeimg/Group 1000003820.png'
-import '../../assets/css/home/mainbanner.css'
-import im from "../../assets/img/homeimg/image-removebg-preview (88) 1.png"
+import Gropimgnomeleft from '../../Assets/img/homeimg/Group 1000003820.png'
+import '../../Assets/css/home/mainbanner.css'
+import im from "../../Assets/img/homeimg/image-removebg-preview (88) 1.png"
 const MainBanner = () => {
     return (
 

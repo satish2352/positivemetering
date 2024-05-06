@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import '../../assets/css/home/shopnow.css'
-import im from "../../assets/img/homeimg/POSITIVE 1.png"
+import '../../Assets/css/home/shopnow.css'
+import im from "../../Assets/img/homeimg/POSITIVE 1.png"
 
 const Shopnow = () => {
     return (
