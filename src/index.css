@@ -57,3 +57,13 @@ a {
     top: -125px;
   }
 }
+
+/* vision mission */
+
+.visionMission {
+  background-image: url(./Assets//About/vision.png);
+  height: 500px;
+  background-size: cover; /* Cover the entire element */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center;
+}

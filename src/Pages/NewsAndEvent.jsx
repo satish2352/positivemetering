@@ -1,8 +1,13 @@
 import React from 'react'
+import NewsAndEventCard from '../PagesComp/NewsAndEvent/NewsAndEventCard'
+import Heading from '../Components/Heading'
 
 const NewsAndEvent = () => {
   return (
-    <div>NewsAndEvent</div>
+    <>
+      <Heading heading={"News and Event"} />
+      <NewsAndEventCard />
+    </>
   )
 }
 

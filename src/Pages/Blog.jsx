@@ -1,8 +1,11 @@
 import React from 'react'
+import BlogCard from '../PagesComp/BlogComp/BlogCard'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <>
+      <BlogCard />
+    </>
   )
 }
 
