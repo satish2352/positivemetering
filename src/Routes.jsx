@@ -8,6 +8,8 @@ import Footer from './Components/Footer'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Service from './Pages/Service'
+import NewsAndEvent from './Pages/NewsAndEvent'
+import Blog from './Pages/Blog'
 
 const Routing = () => {
     return (
@@ -20,6 +22,8 @@ const Routing = () => {
                 <Route path='/about' Component={About} />
                 <Route path='/contact' Component={Contact} />
                 <Route path='/service' Component={Service} />
+                <Route path='/news' Component={NewsAndEvent} />
+                <Route path='/blog' Component={Blog} />
 
                 
             </Routes>
