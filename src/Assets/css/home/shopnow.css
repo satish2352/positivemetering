@@ -78,7 +78,7 @@
 .testomonialprofile {
     border-radius: 50%;
     height: 100px;
-    width: 130px;
+    /* width: 130px; */
     border: 7px solid rgb(242, 236, 236);
 
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row,Col } from 'react-bootstrap'
-import img from '../../Assets/img/productimgs/image-removebg-preview (83) 5.png'
+import img from '../../Assets/img/productimgs/Frame 17.png'
 const Productlistimgs = () => {
     const list = [
         { title: "Oil & Gas" },
@@ -13,10 +13,11 @@ const Productlistimgs = () => {
     return (
         <Container  >
 
-            <Row className='productlistimgsback '>
-                <h1 className='productlistimgstitle'>PLUNGER</h1>
+            <Row className='productlistimgsback py-3'>
+                <img src={img} alt="" />
+                {/* <h1 className='productlistimgstitle'>PLUNGER</h1>
                 <h5 className='productlistimgssubtitle'>TYPE DOSING PUMPS</h5>
-                <div className='productlistproductimg '>  <img src={img} alt="" className=' w-75  ' /></div>
+                <div className='productlistproductimg '>  <img src={img} alt="" className=' w-75  ' /></div> */}
             </Row>
             <Row className='px-lg-5 py-lg-3'>
                 <h1 className=' p-4'>Applications</h1>

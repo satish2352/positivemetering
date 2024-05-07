@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 import im1 from "../../Assets/img/homeimg/8538f65b57b894ab67325c5349657e23.png"
 import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
-
+import Heading from '../../Components/Heading'
 const Testomonial = () => {
   var settings = {
     infinite: false,
@@ -44,8 +44,7 @@ const Testomonial = () => {
   };
   return (
     <Container fluid className='testomonialback py-5 text-center'>
-      <h1 className='oueprd'>TESTOMONIALS</h1>
-   
+      <Heading heading={"TESTOMONIALS"} />
         <Slider {...settings}>
 
           <Col className=' text-center   d-grid justify-content-center'>

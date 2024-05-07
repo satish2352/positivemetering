@@ -8,7 +8,7 @@ const ConatactCard = () => {
 
         <Container className='caontatctcardback py-5'>
             <Row>
-                <Col lg={4}>
+                <Col lg={4} md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>
@@ -19,7 +19,7 @@ const ConatactCard = () => {
                             Mail: support@positivemetering.com</p>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4}  md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>
@@ -30,7 +30,7 @@ const ConatactCard = () => {
                             Mail: support@positivemetering.com</p>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4}  md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>
@@ -41,7 +41,7 @@ const ConatactCard = () => {
                             Mail: support@positivemetering.com</p>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4}  md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>
@@ -52,7 +52,7 @@ const ConatactCard = () => {
                             Mail: support@positivemetering.com</p>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4}  md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>
@@ -63,7 +63,7 @@ const ConatactCard = () => {
                             Mail: support@positivemetering.com</p>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4}  md={6}>
                     <div>
                         <img src={im1} alt="" className=' img-fluid' />
                     </div>

@@ -5,7 +5,7 @@ import Productlistimgs from './Productlistimgs'
 
 const ProductList = () => {
   return (
-   <Container>
+   <Container className=' py-4'>
     <Row>
         <Col lg={4}>
             <Productlisting/>

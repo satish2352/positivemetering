@@ -131,9 +131,9 @@ const ProductComp = () => {
                             <h3><img src={im2} className=' img-fluid  ' alt="" /></h3>
                         </div>
                     </Slider>
-                    <Row className=' text-center '>
+                    {/* <Row className=' text-center '>
                         <h1 className='oueprd'>OUR PRODUCTS</h1>
-                    </Row>
+                    </Row> */}
                 </Container>
             </section>
         </>

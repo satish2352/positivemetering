@@ -1,8 +1,11 @@
 import React from 'react'
+import Servicecard from '../PagesComp/services/Servicecard'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <>
+      <Servicecard />
+    </>
   )
 }
 

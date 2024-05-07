@@ -5,8 +5,9 @@ import ConatactCard from '../PagesComp/Contactus/ConatactCard'
 const Contact = () => {
   return (
     <>
-      <SmallBanner/>
-      <ConatactCard/>
+      <ConatactCard />
+      <SmallBanner />
+
     </>
   )
 }

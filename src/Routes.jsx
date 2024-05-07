@@ -8,6 +8,7 @@ import Footer from './Components/Footer'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Service from './Pages/Service'
+import Product from './Pages/Product'
 
 const Routing = () => {
     return (
@@ -15,7 +16,7 @@ const Routing = () => {
             <Header />
             <Routes>
                 <Route path='/' Component={Home} />
-                <Route path='/product' Component={ProductComp} />
+                <Route path='/product' Component={Product} />
                 <Route path='/career' Component={Career} />
                 <Route path='/about' Component={About} />
                 <Route path='/contact' Component={Contact} />
